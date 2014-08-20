@@ -1,5 +1,6 @@
 ---
 isChild: true
+anchor: programming_paradigms
 ---
 
 ## Programming Paradigms {#programming_paradigms_title}
@@ -18,11 +19,11 @@ interfaces, inheritance, constructors, cloning, exceptions, and more.
 
 ### Functional Programming
 
-PHP supports first-class function, meaning that a function can be assigned to a variable. Both user defined and built-in 
+PHP supports first-class function, meaning that a function can be assigned to a variable. Both user-defined and built-in
 functions can be referenced by a variable and invoked dynamically. Functions can be passed as arguments to other
 functions (feature called Higher-order functions) and function can return other functions.
 
-Recursion, a feature that allows a function to call itself is supported by the language, but most of the PHP code focus
+Recursion, a feature that allows a function to call itself, is supported by the language, but most of the PHP code focus
 on iteration.
 
 New anonymous functions (with support for closures) are present since PHP 5.3 (2009).
@@ -39,7 +40,7 @@ can be used interchangeably with anonymous functions in almost all cases.
 
 ### Meta Programming
 
-PHP supports various forms of meta programming through mechanisms like the Reflection API and Magic Methods. There are
+PHP supports various forms of meta-programming through mechanisms like the Reflection API and Magic Methods. There are
 many Magic Methods available like `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, etc. that allow
 developers to hook into class behavior. Ruby developers often say that PHP is lacking `method_missing`, but it is
 available as `__call()` and `__callStatic()`.
